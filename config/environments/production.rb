@@ -18,8 +18,8 @@ Rails.application.configure do
   # or in config/master.key. This key is used to decrypt credentials (and other encrypted files).
   # config.require_master_key = true
   ActionCable.server.config.disable_request_forgery_protection = true
-  config.action_cable.url = "wss://【Herokuアプリ名】.herokuapp.com/cable" 
-  config.action_cable.allowed_request_origins = ['https://【Herokuアプリ名】.herokuapp.com', 'http://【Herokuアプリ名】.herokuapp.com']
+  config.action_cable.url = "wss://mini_talk_app.herokuapp.com/cable" 
+  config.action_cable.allowed_request_origins = ['https://mini_talk_app.herokuapp.com', 'http://mini_talk_app.herokuapp.com']
 
   # Disable serving static files from the `/public` folder by default since
   # Apache or NGINX already handles this.
